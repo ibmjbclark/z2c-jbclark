@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: z2c-jbclark
+  host: z2c-jbclark
+  disk_quota: 1024M
+  services:
+  - Speech to Text-z2c
